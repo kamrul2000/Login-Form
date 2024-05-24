@@ -1,0 +1,45 @@
+.nav-bar{
+    display: flex;
+    /* margin-left: 10px; */
+    justify-content: space-between;
+}
+.nav-bar a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text a{
+    
+    background-color: rgb(76, 76, 14);
+    border-radius: 10px;
+    padding: 5px 5px;
+    color: aliceblue;
+}
+a:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.form-login{
+display: flex;
+flex-direction: column;
+width: 50%;
+background-color: gray;
+}
+.form-login input{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 3px 3px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
